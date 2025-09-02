@@ -53,36 +53,42 @@ This project **requires deployment** to work correctly, as QR code scanning need
 ### 3. Install PHP Dependencies
    - Open your terminal and navigate to the project directory.
    - Run the following command to install PHP dependencies:
+
      ```
      composer install
      ```
 
 ### 4. Generate Application Key
    - Next, generate the application key by running:
+
      ```
      php artisan key:generate
      ```
 
 ### 5. Install Node.js Dependencies
    - Install Node.js dependencies by running the following command:
+
      ```
      npm install
      ```
 
 ### 6. Run Database Migrations and Seeders
    - To set up the database schema and seed your database with initial data, run the following command:
+
      ```
      php artisan migrate --seed
      ```
 
 ### 7. Run Laravel Schedule
    - To start the automation of marking student who did not scan the QR-code:
+
      ```
      php artisan schedule:work
      ```
 
 ### 8. Run the Project
    - Finally, you can start the development server by running:
+
      ```
      php artisan serve
      ```
