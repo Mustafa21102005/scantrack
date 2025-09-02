@@ -34,7 +34,8 @@ ScanTrack is a **web-based attendance management system** designed for universit
 
 This project **requires deployment** to work correctly, as QR code scanning needs a publicly accessible URL.  
 
-- For local testing, you can use [Ngrok](https://ngrok.com/) to expose your local server to the internet:  
+- For local testing, you can use [Ngrok](https://ngrok.com/) to expose your local server to the internet:
+  
   ```bash
   ngrok http 8000
 
